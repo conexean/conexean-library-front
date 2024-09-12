@@ -9,7 +9,7 @@ export interface IInput extends Omit<InputHTMLAttributes<HTMLInputElement>, 'nam
     mask?: string;
 }
 
-const Input: React.FC<IInput> = ({ 
+export const Input: React.FC<IInput> = ({ 
     name, 
     id, 
     value: propValue, 
